@@ -15,6 +15,7 @@
     list-style: none;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    
   }
   
   .card {
@@ -27,11 +28,31 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
     transition: all 0.2s;
+    
   }
+
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -90%;
+    }
+  }
+  .card {
+    animation: marquee 15s linear infinite;
+    top: 50%;
+    transform: translate(0, 0%);
+    
+  }
+
   
+
+
   .card:not(:last-child) {
     margin-right: 10px;
   }
+
   
   .card:hover {
     color: var(--white);
