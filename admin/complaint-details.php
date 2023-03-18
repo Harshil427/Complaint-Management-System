@@ -119,7 +119,7 @@ else{?>
 										 echo htmlentities($row['status']);
 										 }?></td>
 											
-										</tr>
+						</tr>
 
 <?php $ret=mysqli_query($con,"select complaintremark.remark as remark,complaintremark.status as sstatus,complaintremark.remarkDate as rdate from complaintremark join tblcomplaints on tblcomplaints.complaintNumber=complaintremark.complaintNumber where complaintremark.complaintNumber='".$_GET['cid']."'");
 while($rw=mysqli_fetch_array($ret))

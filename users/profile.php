@@ -10,7 +10,7 @@ if (strlen($_SESSION['login']) == 0) {
 
 
   if (isset($_POST['submit'])) {
-    
+
     $fname = $_POST['fullname'];
     $contactno = $_POST['contactno'];
     $address = $_POST['address'];
