@@ -852,21 +852,21 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .box0:hover .box1 {
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #000000;
 }
 
 .box0 p {
 	text-align: center;
-	font-size: 12px;
-	color: #f2f2f2;
+	font-size: 22px;
+	color: #000000;
 }
 
 .box0:hover p {
-	color: #ff865c;
+	color: #000000;
 }
 
 .box0:hover {
-	background: #ffffff;
+	background: #000000;
 	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
