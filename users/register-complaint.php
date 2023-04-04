@@ -138,7 +138,7 @@ if (strlen($_SESSION['login']) == 0) {
                       </select>
                     </div>
 
-                    <label class="col-sm-2 col-sm-2 control-label">State</label>
+                    <label class="col-sm-2 col-sm-2 control-label">Taluka</label>
                     <div class="col-sm-4">
                       <select name="state" required="required" class="form-control">
                         <option value="">Select State</option>
