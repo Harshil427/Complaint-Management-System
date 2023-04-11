@@ -49,7 +49,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 
 							<div class="module">
 								<div class="module-head">
-									<h3>State</h3>
+									<h3>Taluka</h3>
 								</div>
 								<div class="module-body">
 
@@ -77,9 +77,9 @@ if (strlen($_SESSION['alogin']) == 0) {
 									<form class="form-horizontal row-fluid" name="Category" method="post">
 
 										<div class="control-group">
-											<label class="control-label" for="basicinput">State Name</label>
+											<label class="control-label" for="basicinput">Taluka Name</label>
 											<div class="controls">
-												<input type="text" placeholder="Enter State Name" name="state"
+												<input type="text" placeholder="Enter Taluka Name" name="state"
 													class="span8 tip" required>
 											</div>
 										</div>
@@ -112,7 +112,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 										<thead>
 											<tr>
 												<th>#</th>
-												<th>State</th>
+												<th>Taluka</th>
 												<th>Description</th>
 												<th>Creation date</th>
 												<th>Last Updated</th>

@@ -119,7 +119,7 @@ if (strlen($_SESSION['login']) == 0) {
                     </div>
 
                     <div class="form-group">
-                      <label class="col-sm-2 col-sm-2 control-label">State</label>
+                      <label class="col-sm-2 col-sm-2 control-label">taluka</label>
                       <div class="col-sm-4">
                         <select name="state" required="required" class="form-control">
                           <option value="<?php echo htmlentities($row['State']); ?>"><?php echo htmlentities($st = $row['State']); ?></option>

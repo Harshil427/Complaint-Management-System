@@ -141,7 +141,7 @@ if (strlen($_SESSION['login']) == 0) {
                     <label class="col-sm-2 col-sm-2 control-label">Taluka</label>
                     <div class="col-sm-4">
                       <select name="state" required="required" class="form-control">
-                        <option value="">Select State</option>
+                        <option value="">Select Taluka</option>
                         <?php $sql = mysqli_query($con, "select stateName from state ");
                         while ($rw = mysqli_fetch_array($sql)) {
                           ?>
